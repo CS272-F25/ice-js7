@@ -40,7 +40,9 @@ const counts = {
   other: 0,
 };
 
-// your code here.
+for (const student of students) {
+  counts[student.standing]++;
+}
 
 /* Output should be:
 { 
